@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans 3", Arial, sans-serif;
+  color: #778298;
+}
+
+*,
+*::before,
+a::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+}
+
+body,
+button,
+select,
+input,
+textarea {
+  font-size: 1.8rem;
+  line-height: 1.618;
+  font-weight: 400;
+  font-style: normal;
+  background-color: transparent;
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+a:link,
+a:visited {
+  color: #778298;
+}
+
+a:hover,
+a:active {
+  color: #778298;
+  text-decoration: underline;
+}
+
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  cursor: pointer;
+}
+
+a:focus,
+button:focus {
+  color: #778298;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Merriweather", serif;
+  color: #323232;
+}

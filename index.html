@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css" integrity="sha256-wiz7ZSCn/btzhjKDQBms9Hx4sSeUYsDrTLg7roPstac=" crossorigin="anonymous" />
+
+    <!-- Google Font CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet" />
+
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <title>Responsive Blog Page UI In HTMl And CSS</title>
+  </head>
+
+  <body>
+
+    <!-- Top Header, Branding And Index Section -->
+    <header class="site-header">
+      <div class="wrapper">
+
+        <figure class="logo">
+          <h1 class="hidden">SLASH DESIGN</h1>
+          <a href="#"><img src="images/logo.png" alt="An icon representing the logo for the fake company SlashDesign.com" class="logo-image" /></a>
+        </figure>
+        <nav class="header-nav">
+          <ul>
+            <li><a href="#">View all lessons</a></li>
+            <li><a href="#">Toolkit</a></li>
+          </ul>
+        </nav>
+
+      </div> <!-- end //wrapper-->
+    </header>
+
+    <!-- Main Section -->
+    <main>
+      <div class="wrapper">
+        <article>
+          <header class="article-header">
+            <figure class="article-header-image">
+              <img src="images/article-image-01.png" alt="">
+              <figcaption class="italic-text"><a href="#">&copy; Jane Doe</a></figcaption>
+            </figure>
+            <div class="article-header-text">
+              <h2>Hello World</h2>
+              <figure>
+                <img src="images/avatar.svg" alt="" class="avatar-image" />
+                <figcaption>
+                  <p class="author-name">John Doe <span>Lesson 0</span></p>
+                </figcaption>
+              </figure>
+            </div>
+          </header>
+
+          <section class="article-body">
+            <p><span class="bold-text">Welcome to SlashDesign!</span> Lesson 0 rgo adhuc, quantum equidem intellego, causa non videtur fuisse mutandi nominis. Unum est sine dolore lorem ipsum voluptate. Excited?</p>
+            <p>Locavore sriracha occupy, post-ironic pork belly yolo enamel pin cornhole tonx four dollar toast meggings wayfarers. Cupping succulents church-key celiac beard humblebrag. <span class="italic-text">Mihiantiochum</span>Jean shorts gentrify pickled narwhal activated charcoal selvage tumblr, yolo neutra locavore post-ironic gorpcore impact in people's lives.</p>
+            <p>Ping me &commat;lorem on twitter &dash; bruh enamel level vape pug.</p>
+
+            <h3><a href="#">Objectified: A audissatis belle videris</a></h3>
+
+            <p>Pabst poke gentrify sartorial iceland narwhal vexillologist. Craft beer sartorial taiyaki hexagon next level chia ennui shaman wayfarers big mood VHS k ipsum own work.</p>
+            <p><span class="bold-text">If activated charcoal biodiesel street art</span> schlitz iceland narwhal vexillologist. Craft beer sartorial taiyaki hexagon nextcoloring lorem ipsum book. Good Luck!</p>
+          </section>
+
+          <footer class="article-footer">
+            <p>Instructor</p>
+            <figure>
+              <img src="images/avatar.svg" alt="" class="avatar-image" />
+              <figcaption>
+                <p class="author-name">John Doe</p>
+                <p>Product Designer, Acmeecorp</p>
+                <p>I lead ipsum, dolor sit amet. Creator at adipisicing elit. Inventore recusand dolore ipsum quasi.</p>
+              </figcaption>
+            </figure>
+          </footer>
+        </article>
+
+        <article class="next-article">
+          <p>Next lesson</p>
+          <figure>
+            <img src="images/article-image-02.png" alt="" class="next-lesson-image" />
+            <figcaption>
+              <p><a href="#">What is ipsum ? Solarpunk small batch?</a></p>
+            </figcaption>
+          </figure>
+        </article>
+
+        <section class="newsletter">
+          <p class="bold-text">Join 600,000+ others in learning ipsum</p>
+          <p>Receive a direct trade ennui, health goth lomo sustainable neutral.</p>
+          <form>
+            <div class="input-group">
+              <label for="email" class="hidden">Email</label>
+              <input id="email" type="email" placeholder="Email address" name="user_email" />
+              <input type="submit" value="Get Started" name="submit" class="btn btn-subscribe" />
+            </div>
+          </form>
+        </section>
+
+      </div> <!-- end //wrapper-->
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="site-footer">
+      <div class="wrapper">
+
+        <!-- Main Footer -->
+        <section class="primary-footer">
+          <div class="copyright">
+            &copy; 2030
+          </div>
+          <nav class="footer-nav">
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Curators</a></li>
+              <li><a href="#">Legal</a></li>
+            </ul>
+          </nav>
+        </section>
+
+        <!-- Bottom Sticky Footer -->
+        <section class="secondary-sticky-footer">
+          <div class="left">
+            <a href="#"><span class="left-arrow">&larr;</span> View all lessons</a>
+          </div>
+          <ul class="middle">
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook-f"></i><span>Share</span></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-x-twitter"></i><span>Tweet</span></a>
+            </li>
+          </ul>
+          <div class="right">
+            <button type="button" class="btn btn-cta">Subscribe</button>
+          </div>
+        </section>
+
+      </div> <!-- end //wrapper-->
+
+    </footer>
+
+  </body>
+
+</html>
